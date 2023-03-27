@@ -50,7 +50,7 @@ except URLError as e:
 
 
 #don't run anything past this
-streamlit.stop()
+#streamlit.stop()
 
 #allow end user to add a fruit to the list
 def insert_row_snowflake(new_fruit):
